@@ -104,7 +104,7 @@ function gameController(
              return;}
         
         console.log(
-            `Selecting ${getActivePlayer().name}'s token into cell  ${r ,c}...`
+            `Selecting ${getActivePlayer().name}'s token into cell  [${r}] [${c}]...`
           );
         switchPlayerTurn();
         printNewRound();
