@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    background-color: #3b82f6;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.turn{
+    padding-top: 2rem;
+}
+.board {
+    display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr;
+   min-height: 70dvh;
+    gap: 1rem;
+    margin: 2rem;
+    background-color: yellow;
+    
+  }
+  
+  
+  button{
+    border: none;
+    font-size: 5rem;
+  }
