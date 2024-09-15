@@ -111,7 +111,7 @@ function gameController(
         // Drop a token for the current player
         
         if(!board.selectCell(r,c, getActivePlayer())) {
-            console.log("Choose another Cell");
+            alert("Choose another Cell");
              return 0;
             }
         
